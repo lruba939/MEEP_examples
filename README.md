@@ -3,7 +3,7 @@ This repository contains a complex MEEP study, including a Jupyter notebooks wit
 
 Contents:
 
-- [ ] A Straight Waveguide
+- [x] A Straight Waveguide
 
 - [ ] A 90° Bend
 
