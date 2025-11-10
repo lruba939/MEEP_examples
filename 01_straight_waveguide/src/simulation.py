@@ -10,7 +10,7 @@ p = params.SimParams()
 def make_sim():
     sim = mp.Simulation(
         cell_size = geometry.make_cell(),
-        boundary_layers = p.pml,
+        boundary_layers = [mp.PML(p.pml)],
         geometry = geometry.make_medium(),
         sources = sources.make_source(),
         resolution = p.resolution,

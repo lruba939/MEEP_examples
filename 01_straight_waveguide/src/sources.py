@@ -9,7 +9,7 @@ def make_source():
         mp.Source(
             mp.ContinuousSource(frequency=p.freq),
             component=p.component,
-            center=mp.Vector3(p.xyz_src[0], p.xyz_src[1], p.xyz_src[2])
+            center=mp.Vector3(p.xyz_src[0], p.xyz_src[1])
         )
     ]
     return sources

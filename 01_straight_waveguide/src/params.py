@@ -22,7 +22,7 @@ class SimParams:
         # Source
         self.freq = 0.15
         self.component = mp.Ez
-        self.xyz_src = [-7,0,0]
+        self.xyz_src = [-7,0]
         
         ## Simulation settings
         self.pml = 1.0
